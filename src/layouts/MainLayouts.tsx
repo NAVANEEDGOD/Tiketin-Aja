@@ -41,7 +41,6 @@ const MainLayouts: React.FC = () => {
             }).then((result) => {
                 if (result.isConfirmed) {
                     console.log("User confirmed logout");
-                    // Add your logout logic here, e.g., clearing tokens, redirecting, etc.
                 }
             });
         }

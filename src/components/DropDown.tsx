@@ -11,7 +11,7 @@ interface DropDownProps {
 
 export const DropDown:React.FC<DropDownProps> = ({options,selectedOption,onSelect,name,label}) => {
     const handleSelect = (option: string) => {
-        if (option === "") return; // Prevent empty selection
+        if (option === "") return;
         onSelect(option);
         console.log("Selected option:", option);
     }
